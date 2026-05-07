@@ -16,14 +16,14 @@
 ### DataFest Competition: Prostate Cancer Patient Diagnosis and Treatment Pathway Analysis
 Integrated clinical data and cleaned SDOH variables, utilizing K-means to target the prostate cancer cohort and reconstructing it using time-series alignment technology. Initially applying MLR and missing dummy variables to diagnose data as MINAR, the linear model showed weak explanatory power. Subsequently, the XGBoost sparsity-aware algorithm was employed to increase the prediction AUC to 0.678, ultimately outputting regression coefficients using MLR to balance prediction performance and interpretability. This approach confirmed that unanswered questionnaires indicate informative missingness, identifying driving factors for medical dropout and assisting in early intervention.
 
-![Prostate Cancer Pathway Analysis](/assets/img/f7795c1d92e3b62090aab28f0f391168.jpg)
+![Prostate Cancer Pathway Analysis](f7795c1d92e3b62090aab28f0f391168.jpg)
 
 ### Medical Insurance Cost Determinants Analysis
 Based on over 1,300 medical insurance data points, this project eliminated multicollinearity via VIF, filtered non-significant features via F-test, and retained extreme features to support precise medical insurance cost pricing. Using MLR as a baseline, the model was upgraded to a Gamma GLM to address heteroscedasticity, significantly improving the robustness of cost predictions. Furthermore, the introduction of interaction term analysis revealed that obesity risks are amplified in smoking populations, enabling more precise pricing strategies for high-risk groups.
 
-![Medical Insurance Cost Analysis](/assets/img/fb0175ef71d51b6983051ca3a0b93385.png)
+![Medical Insurance Cost Analysis](fb0175ef71d51b6983051ca3a0b93385.png)
 
 ### Contemporary Undergraduate Mathematical Contest in Modeling (CUMCM)
 Utilized a Beta-GAMM model to customize 12-16 week testing windows for different pregnant women, effectively reducing associated risks and costs. By applying the EasyEnsemble framework, the average model accuracy was increased by 1.4 times, successfully resolving sample imbalance issues. Additionally, a conformal prediction mechanism was introduced to establish a three-tier triage strategy, ensuring zero missed diagnoses while effectively suppressing the false positive rate.
 
-![CUMCM Modeling](/assets/img/a5546a779b9b4650139af6f7cfab8f9a.jpg)
+![CUMCM Modeling](a5546a779b9b4650139af6f7cfab8f9a.jpg)
