@@ -23,7 +23,7 @@ Based on over 1,300 medical insurance data points, this project eliminated multi
 
 ![Medical Insurance Cost Analysis](fb0175ef71d51b6983051ca3a0b93385.png)
 
-### Contemporary Undergraduate Mathematical Contest in Modeling (CUMCM)
+### Modeling Study on Optimal Testing Window for NIPT and Female Fetal Anomaly Detection
 Utilized a Beta-GAMM model to customize 12-16 week testing windows for different pregnant women, effectively reducing associated risks and costs. By applying the EasyEnsemble framework, the average model accuracy was increased by 1.4 times, successfully resolving sample imbalance issues. Additionally, a conformal prediction mechanism was introduced to establish a three-tier triage strategy, ensuring zero missed diagnoses while effectively suppressing the false positive rate.
 
 ![CUMCM Modeling](a5546a779b9b4650139af6f7cfab8f9a.jpg)
