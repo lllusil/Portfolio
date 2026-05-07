@@ -1,32 +1,40 @@
-# Data Science Portfolio: Translating Analytics into Real-World Impact
+# Xinrui Li
 
-## Professional Motivation
-My goal is to advance into **applied data science for healthcare & agritech**—fields where data-driven decisions directly improve outcomes (e.g., patient care efficiency, food security). My projects are rooted in solving tangible industry challenges: NIPT testing optimization addresses gaps in prenatal care accessibility, while wheat yield prediction supports small-scale farmers with actionable forecasts.
-
+#### Technical Skills: SQL, Excel, Python (pandas, matplotlib), R (ggplot2), Java, C++
 
 ## Education
-**B.S. in Data Science**
-- Core Competencies: Statistical modeling (Bayesian inference, mixed-effects models), machine learning (ensemble methods, time-series forecasting), programming (Python/R for data pipeline development, Tkinter for GUI tooling).
+- B.S., Statistics (Sino-foreign joint program) | Capital University of Economics and Business (_September 2023 - June 2027_)
+  - GPA: 4.19 (Top 5%)
+  - Core Courses: Probability Theory, Statistical Computing, High-Dimensional Data Analysis, Python Data Processing, Big Data Preprocessing, Database Principles and Applications, C Language, Java
 
+## Work Experience
+**Data Analyst Intern @ Bank of China, Chongqing Branch (_July 2024 - September 2024_)**
+- Wrote Python scripts to automatically extract 5,000+ potential loan customers, using cross-comparison to assist in controlling pre-loan access risks.
+- Used SQL multi-table joins to extract customer deposit and loan details, cleaned and converted them to output standardized documents, ensuring compliance and completeness of files.
+- Participated in pre-loan review and mid-loan follow-up, ensured zero errors in information transmission, extracted business metrics to form summaries, and improved approval efficiency.
 
 ## Projects
-### 1. NIPT Optimal Timing & Abnormality Detection (Collaborative Project)
-*Partnered with 2 clinical researchers to align model outputs with clinical workflows*
-- **Statistical Reasoning**: Built a Beta-GAMM model to quantify how maternal BMI/gestational age interact to impact fetal DNA concentration—validated via 2,000+ patient records to ensure clinical relevance.
-- **Optimization**: Designed a time-weighted Risk-Minimization model to recommend testing windows, reducing unnecessary retests by 22% (per clinician feedback on practical implementation).
-- **Machine Learning**: Implemented EasyEnsemble + Conformal Prediction for abnormality detection; 95% recall rate (critical for minimizing false negatives) was verified via peer review with diagnostic lab teams.
-- **Communication**: Presented technical results (model thresholds, uncertainty bounds) in visual dashboards for non-technical clinicians, and summarized key findings in a 1-page clinical guideline brief.
+### DataFest Competition: Prostate Cancer Patient Diagnosis and Treatment Pathway Analysis
+*Project Lead (March 2026)*
+- Integrated clinical data, cleaned SDOH variables, used K-means to target the prostate cancer cohort, and reconstructed it using time-series alignment technology.
+- Initially used MLR and missing dummy variables to diagnose data as MINAR and found weak linear model explanatory power. 
+- Later used the XGBoost sparsity-aware algorithm to increase prediction AUC to 0.678, and finally output regression coefficients using MLR to balance prediction performance and interpretability.
+- Confirmed that unanswered questionnaires belong to informative missingness, identified driving factors for medical dropout, and assisted in early intervention.
 
+### Medical Insurance Cost Determinants Analysis
+*Project Lead (September 2025 - December 2025)*
+- Based on 1,300+ medical insurance data points, eliminated multicollinearity via VIF, filtered non-significant features via F-test, and retained extreme features to support precise medical insurance cost pricing.
+- Using MLR as a baseline, upgraded to Gamma GLM to address heteroscedasticity, improving the robustness of cost prediction.
+- Introduced interaction term analysis, discovered that obesity risk is amplified in smoking populations, providing precise pricing for high-risk groups.
 
-### 2. Wheat Yield Prediction via Machine Learning (Individual Project)
-*Independent development with stakeholder input from agronomists*
-- **Data Reasoning**: Integrated 5+ multi-source datasets (weather time-series, soil NPK levels, NDVI satellite imagery) — cleaned and normalized data to account for regional variability (e.g., rainfall measurement inconsistencies).
-- **Predictive Modeling**: Compared ensemble models (Random Forest, XGBoost) and LSTM; XGBoost outperformed LSTM in short-term forecasts (R²=0.88 post-Bayesian hyperparameter tuning).
-- **Technical Competence**: Used Python (Pandas/Scikit-learn) for pipeline automation, and Matplotlib/Seaborn to create interactive yield trend charts (shared with agronomists for field validation).
-- **Impact Focus**: Translated model outputs into a farmer-facing tool (simplified web interface prototype) that predicts yield deviations 4 weeks in advance.
+### Contemporary Undergraduate Mathematical Contest in Modeling (CUMCM)
+*Project Modeler (August 2025 - September 2025)*
+- Utilized Beta-GAMM model to customize 12-16 week testing windows for different pregnant women, reducing risks and costs.
+- Applied EasyEnsemble framework, increasing average model accuracy by 1.4 times and resolving sample imbalance issues.
+- Introduced conformal prediction mechanism to establish a three-tier triage strategy, ensuring zero missed diagnoses and suppressing the false positive rate.
 
-
-## Collaboration & Technical Skills
-- **Collaboration**: Led weekly syncs for the NIPT project to split tasks (data cleaning, model validation, stakeholder outreach) and resolve misalignments (e.g., adjusting model assumptions to match clinical sampling protocols).
-- **Technical Proficiency**: Mastered Python (Pandas for multi-source data integration, XGBoost for predictive modeling, Tkinter for GUI tooling) and R (lme4 for mixed-effects models); experienced in Excel automation for QAQC workflows.
-- **Communication**: Adapted work to 2 audience levels: technical stakeholders (detailed model performance reports) and non-technical end-users (visual dashboards, 1-page summaries).
+## Honors & Awards
+- First and Second Prizes, Beijing, Contemporary Undergraduate Mathematical Contest in Modeling (CUMCM)
+- First Prize, University Level, China International College Students' Innovation Competition
+- Second Prize, University Level, "Zhengda Cup" National College Student Market Investigation and Analysis Competition
+- University-level "Merit Student" and "Outstanding League Member"
